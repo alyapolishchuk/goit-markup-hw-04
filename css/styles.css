@@ -366,19 +366,20 @@ img {
     align-items: center;
 }
 
-.decisions {
+/*.decisions {
     display: block;
-}
+}*/
 
 .decisions-button {
     margin-right: auto;
     margin-left: auto;
 }
 
-.decisions {
+/*.decisions {
     padding-top: 200px;
     padding-bottom: 200px;
-}
+    display: block;
+}*/
 
 .decisions-title {
     margin-bottom: 30px;
@@ -495,11 +496,9 @@ img {
     padding-right: 10px;
 }
 
-/*.team-player-description {
-    margin-bottom: 30px;
-    padding-left: 15px;
-    padding-right: 15px;
-}*/
+.team-player-description {
+    margin-bottom: 16px;
+}
 
 
 .team-title-list:not(:last-child) {
@@ -539,3 +538,202 @@ img {
 .button-list-item:not(:last-child) {
     margin-right: 8px;
 }
+
+.icon-nav {
+    display: block;
+    fill: #757575;
+    margin-right: 10px
+}
+
+.adress-nav:hover>.icon-nav {
+    fill: #2196F3;
+}
+
+.adress-nav {
+    display: flex;
+    align-items: center;
+}
+
+.decisions {
+    background-image: 
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bgimage.jpg);
+    width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: block;
+}
+
+.advantages-icon {
+    width: 270px;
+    height: 120px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-links:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-media {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.social-media-icon {
+    fill: #AFB1B8;
+}
+
+.social-media-link:hover>.social-media-icon,
+.social-media-link:focus>.social-media-icon {
+    fill: #ffffff;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+    background-color: #2196F3;
+    fill: #ffffff;
+}
+
+.join-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.join-icon {
+    fill: #ffffff;
+}
+
+.join-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.join-list {
+    display: flex;
+}
+
+.join-list-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.join-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-link:hover,
+.join-link:focus {
+    background: #2196F3;
+}
+
+.footer-section {
+    display: flex;
+    align-items: baseline;
+}
+
+.join-section {
+    margin-left: 70px
+}
+
+.join-list {
+    margin-top: 20px;
+}
+
+.clients-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    color: #212121;
+}
+
+.client-icon {
+    fill: #AFB1B8;
+}
+
+.client-link {
+    display: block;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-list {
+    display: flex;
+
+}
+
+.clients-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-link:hover,
+.client-link:focus{
+    border: 1px solid #2196F3;
+}
+
+.client-link:hover>.client-icon,
+.client-link:focus>.client-icon{
+    fill: #2196F3;
+}
+
+.clients>.container {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+
+.portfolio-title-list:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.button:hover{
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+0px 1px 2px rgba(0, 0, 0, 0.08),
+0px 2px 2px rgba(0, 0, 0, 0.12);}
